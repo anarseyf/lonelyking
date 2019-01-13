@@ -1,5 +1,16 @@
 
-const FLAG_SELECTED = 0, FLAG_UNSELECTED = 1;
+const FLAG_SELECTED = 0,
+      FLAG_UNSELECTED = 1;
+
+function* permute(n) {
+
+    let arr = new Array(n).fill(0);
+    let permutation = arr;
+    while (permutation) {
+        yield permutation;
+        permutation = next(permutation);
+    }
+}
 
 function next(permutation) {
     let max = permutation.length - 1;
@@ -42,16 +53,6 @@ function unselected(permutation, flags) {
 function resetFlags(flags) {
     for (let i = 0; i < flags.length; i++) {
         flags[i] = FLAG_UNSELECTED;
-    }
-}
-
-function* permute(n) {
-
-    let arr = new Array(n).fill(0);
-    let permutation = arr;
-    while (permutation) {
-        yield permutation;
-        permutation = next(permutation);
     }
 }
 

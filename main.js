@@ -3,7 +3,7 @@ function main() {
     // console.clear();
 
     let memo = [0, 1];
-    const MAX = 9;
+    const MAX = 10;
 
     nextRound(memo, MAX);
 }
