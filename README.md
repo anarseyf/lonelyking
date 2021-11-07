@@ -23,13 +23,13 @@ Answer for N = 10 is:0.5547  (514.558 seconds)
 Chrome on Macbook Air M1 (2020):
 
 ```
-Answer for N = 2 is: 0 (0.009 seconds)
-Answer for N = 3 is: 0.75 (0.006 seconds)
+Answer for N = 2 is: 0      (0.009 seconds)
+Answer for N = 3 is: 0.75   (0.006 seconds)
 Answer for N = 4 is: 0.5926 (0.005 seconds)
 Answer for N = 5 is: 0.4688 (0.006 seconds)
 Answer for N = 6 is: 0.4161 (0.011 seconds)
 Answer for N = 7 is: 0.4389 (0.036 seconds)
-Answer for N = 8 is: 0.489 (0.519 seconds)
+Answer for N = 8 is: 0.489  (0.519 seconds)
 Answer for N = 9 is: 0.5323 (12.225 seconds)
 Answer for N = 10 is:0.5547 (337.704 seconds)
 ```
